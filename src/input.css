@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Josefin+Sans:wght@400;500;600;700&family=Noto+Sans+JP:wght@200;500&family=Poppins:wght@200;300;400;600;700&family=Ruwudu:wght@500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.left_0{
+    left: 0 !important;
+}
+.font_family{
+    font-family: 'Poppins';
+}
