@@ -9,3 +9,6 @@
 .font_family{
     font-family: 'Poppins';
 }
+.slick-slider{
+    position: unset !important;
+}
