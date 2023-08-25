@@ -36,6 +36,12 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <!-- PRELODER -->
+  <div id="preloader"
+  class="h-full w-full fixed top-0 start-0 flex duration-300 justify-center items-center bg-black z-10 ">
+  <img class="animate-bounce" src="./img/svg/image-2.svg" alt="">
+</div>
+
     <header class="bg-slate-500 py-4 ">
         <nav class="container px-4 mx-auto flex items-center justify-between">
             <img class="z-20" src="./img/svg/image-2.svg" alt="">
@@ -298,5 +304,13 @@
             document.getElementById("nav-bar").classList.toggle("left_0")
         }
     </script>
+    <script>
+        const preloader = document.getElementById("preloader")
+        setTimeout(() => {
+          preloader.classList.add("opacity-0")
+          preloader.classList.add("pointer_event_none")
+          document.body.classList.remove("overflow-hidden")
+        }, 2000)
+      </script>
     </body> 
     </html>
